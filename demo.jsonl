@@ -1,0 +1,10 @@
+{"level":"INFO","service":"api","message":"GET /products","duration_ms":24}
+{"level":"INFO","service":"api","message":"GET /products","duration_ms":31}
+{"level":"ERROR","service":"payments","message":"upstream timeout for order 1042","duration_ms":1500}
+{"level":"ERROR","service":"payments","message":"upstream timeout for order 1043","duration_ms":1450}
+{"level":"WARN","service":"worker","message":"retry scheduled for job 901","duration_ms":80}
+{"level":"INFO","service":"worker","message":"report completed","duration_ms":210}
+{"level":"INFO","service":"api","message":"GET /health","duration_ms":4}
+{"level":"INFO","service":"api","message":"GET /products","duration_ms":28}
+{"level":"CRITICAL","service":"database","message":"connection pool exhausted","duration_ms":2100}
+{"level":"INFO","service":"worker","message":"report completed","duration_ms":195}

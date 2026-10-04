@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "traceglass"
+version = "0.1.0"
+description = "Streaming JSONL diagnostics with bounded memory and standalone HTML reports"
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Orçun Kara"}]
+dependencies = []
+
+[project.scripts]
+traceglass = "traceglass:main"
+
+[tool.setuptools]
+py-modules = ["traceglass"]
